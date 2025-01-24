@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dum.</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+    @font-face {
+    font-family: '2Dumb';
+    src: url('font/2Dumb.ttf') format('truetype');
+}
+</style>
+<body>
+    <center>
+    <div class="text">dum.</div>
+    <div class="button-container">
+            <a href="/"><button class="select-button2">Home</button></a>
+            <a href="/@"><button class="select-button2">Games</button></a>
+            <a href="/*"><button class="select-button">Apps</button></a>
+    </div>
+    <form id="uv-form">
+        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+        <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
+    </form>
+</center>
+    <script src="static/uv/uv.bundle.js" defer></script>
+    <script src="static/uv/uv.config.js" defer></script>
+    <script src="static/register-sw.js" defer></script>
+    <script src="static/search.js" defer></script>
+    <script src="static/index.js" defer></script>
+    <script src="static/error.js" defer></script>
+</body>
+</html>
