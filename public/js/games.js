@@ -8,7 +8,7 @@ fetch('json/games.json')
             gameButton.className = 'game-button';
             gameButton.innerHTML = `
                 <img src="${game.image}" alt="${game.name}" class="game-image">
-                <br>${game.name}
+                <div class="game-title">${game.name}</div>
             `;
             buttonContainer.appendChild(gameButton);
         });
