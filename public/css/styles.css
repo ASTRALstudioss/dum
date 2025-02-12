@@ -81,7 +81,7 @@ input[type="text"]::placeholder {
 }
 .game-button {
     position: relative;
-    width: 500px;
+    width: 300px;
     height: 250px;
     font-family: '2Dumb', sans-serif;
     font-size: 24px;
@@ -112,6 +112,51 @@ input[type="text"]::placeholder {
 }
 
 .game-title {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.app-button {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    font-family: '2Dumb', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: #468C6E;
+    padding: 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    flex: 0 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+.app-button:hover .app-image {
+    filter: brightness(50%);
+}
+
+.app-button:hover .app-title {
+    opacity: 0.7;
+}
+
+.app-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.app-title {
     position: absolute;
     bottom: 10px;
     right: 10px;

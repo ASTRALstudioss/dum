@@ -1,12 +1,17 @@
 [
     {
         "name": "Rocket League",
-        "location": "/static/tiw/hvtrs8%2F-rmciev-qoacgr%2Fdgr%60y%2Cgktju%60.ko-fklg%2F",
+        "location": "/game.html?g=rocketleague",
         "image": "https://play-lh.googleusercontent.com/ZSLQpJsfi6GrsPoTpKh-IDkR_YcBdIG96pUi6KToYrHssFKkuV1lQQ5sLf08f5He3bE"
     },
     {
         "name": "Run 3",
-        "location": "/static/tiw/hvtrs8%2F-pna%7Bep01.aoo%2Fpul%2F1%2F%60eva-",
+        "location": "/game.html?g=run3",
         "image": "https://www.primarygames.com/arcade/action/run3/logo200.png"
+    },
+    {
+        "name": "Knife IO",
+        "location": "/game.html?g=knifeio",
+        "image": "https://play-lh.googleusercontent.com/NMG4fOhbE0cb84DJH46p8mxCoH9j11iR4xKV-e3utNldqw-e8ExbXaqTWKiECDWyz7fQ"
     }
 ]
